@@ -22,7 +22,9 @@ useEffect(() => {
     return (
         <div className={`nav ${show && 'nav__black'}`}>
             <div className="div__contents">
-            <img className="nav__logo"
+            <img 
+                onClick={() => history.push("/")}
+                className="nav__logo"
                 src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
                 alt="the netflix logo" 
                 />
