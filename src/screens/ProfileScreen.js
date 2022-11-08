@@ -31,3 +31,7 @@ function ProfileScreen() {
 }
 
 export default ProfileScreen
+
+
+
+//comment for a new commit stripe products aren't syncing with firebase firestore. 
